@@ -10,17 +10,17 @@
     <meta name="keywords" content="">
     <title> DevFount </title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Style CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <!-- Owl Carousel CSS -->
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.default.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/owl.carousel.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/owl.theme.default.css') }}" rel="stylesheet">
     <!-- FontAwesome CSS -->
-    <link rel="stylesheet" type="text/css" href="css/fontello.css">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/fontello.css') }}">
+    <link href="{{ url_for('static', filename='css/font-awesome.min.css') }}" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
                     <div class="logo">
-                        <a href="index.html"><img src="./images/logo.png" alt=""> </a>
+                        <a href="index.html"><img src="{{ url_for('static', filename='images/logo.png') }}" alt=""> </a>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
@@ -99,7 +99,7 @@
     <div class="slider">
         <div class="owl-carousel owl-one owl-theme">
             <div class="item">
-                <div class="slider-img"> <img src="./images/slider_1.jpg" alt=""></div>
+                <div class="slider-img"> <img src="{{ url_for('static', filename='images/slider_1.jpg')}}" alt=""></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="./images/slider_2.jpg" alt=""></div>
+                <div class="slider-img"><img src="{{ url_for('static', filename='images/slider_2.jpg')}}" alt=""></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -125,7 +125,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="./images/slider_3.jpg" alt=""></div>
+                <div class="slider-img"><img src="{{ url_for('static', filename='images/slider_3.jpg')}}" alt=""></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -156,7 +156,7 @@
                 <!-- service-block -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="service-block">
-                        <div class="service-img"><a href="#" class="imghover"><img src="./images/service_img_1.jpg" alt="" class="img-responsive"></a></div>
+                        <div class="service-img"><a href="#" class="imghover"><img src="{{ url_for('static', filename='images/service_img_1.jpg')}}" alt="" class="img-responsive"></a></div>
                         <div class="service-content">
                             <h3 class="service-title"><a href="#" class="title">Recruitment</a></h3>
                             <p>With our meticulous
@@ -172,7 +172,7 @@
                 <!-- service-block -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="service-block">
-                        <div class="service-img"><a href="#" class="imghover"><img src="./images/service_img_2.jpg" alt=""  class="img-responsive"></a></div>
+                        <div class="service-img"><a href="#" class="imghover"><img src="{{ url_for('static', filename='images/service_img_2.jpg')}}" alt=""  class="img-responsive"></a></div>
                         <div class="service-content">
                             <h3 class="service-title"><a href="#" class="title">HR Outsourcing</a></h3>
                             <p>Partner with us to manage both your strategic HR functions and day to day HR affairs. Our expertise in the design of world class HR systems and processes and in the management of HR operations enable <strong>us</strong> <strong>infuse</strong> best practices in your organization while<strong>helping you</strong> save cost. </p>
@@ -184,7 +184,7 @@
                 <!-- service-block -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="service-block">
-                        <div class="service-img"><a href="#" class="imghover"><img src="./images/service_img_3.jpg" alt=""  class="img-responsive"></a></div>
+                        <div class="service-img"><a href="#" class="imghover"><img src="{{ url_for('static', filename='images/service_img_3.jpg')}}" alt=""  class="img-responsive"></a></div>
                         <div class="service-content">
                             <h3 class="service-title"><a href="#" class="title">Capcity Building</a></h3>
                             <p>With our highly focused and customized training models and OD strategies, we support your staff to <strong>build & develop</strong> the competencies required to deliver on business objectives</p>
@@ -265,7 +265,7 @@
                 <!-- /.footer-services-links -->
                 <!-- footer-useful links -->
                 <div class=" col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                    <div class="ft-logo"><img src="./images/ft_logo.png" alt=""></div>
+                    <div class="ft-logo"><img src="{{ url_for('static', filename='images/ft_logo.png')}}" alt=""></div>
                 </div>
                 <!-- /.footer-useful links -->
             </div>
@@ -285,14 +285,14 @@
     </div>
     <!-- /.footer -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}" type="text/javascript"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/menumaker.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/jquery.sticky.js"></script>
-    <script type="text/javascript" src="js/sticky-header.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/multiple-carousel.js"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}" type="text/javascript"></script>
+    <script src="{{ url_for('static', filename='js/menumaker.js') }}" type="text/javascript"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.sticky.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/sticky-header.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/multiple-carousel.js') }}"></script>
     <script type="text/javascript">
     $("#dots").click(function() {
         $(".top-header").toggle("slow", function() {

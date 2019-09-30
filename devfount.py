@@ -4,24 +4,24 @@ app =Flask(__name__)
 
 @app.route('/')
 def index():
-	return render_template('index.html')
+        return render_template('index.html')
 
 @app.route('/404-page')
-def home():
-	return render_template('404-page.html')
+def error_page():
+        return render_template('404-page.html')
 
 @app.route('/about')
-def home():
+def about():
         return render_template('about.html')
 
 @app.route('/contact-us')
-def home():
+def contact_us():
         return render_template('contact-us.html')
 
 @app.route('/consultation-form')
-def home():
+def consultation_form():
         return render_template('consultation-form.html')
 
 
 if __name__ == '__main__':
-	app.run(debug=True, host='0.0.0.0')
+        app.run(debug=True, host='0.0.0.0')
