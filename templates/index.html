@@ -30,7 +30,7 @@
 </head>
 
 <body>
-     <!-- top-header-section-->
+    <!-- top-header-section-->
     <div class="top-header">
         <div class="container">
             <div class="row">
@@ -58,7 +58,7 @@
     <div class="menu-toggel">
         <a href="#" id="dots" class="dots-icon"><i class="fa fa-ellipsis-v visible-xs"></i></a>
     </div>
-   <!-- /.top-header-section-->
+    <!-- /.top-header-section-->
     <!-- header-section-->
     <div class="header-wrapper">
         <div class="container">
@@ -73,15 +73,15 @@
                     <div class="navigation">
                         <div id="navigation">
                             <ul>
-                                <li class="active"><a href="index.html">Home</a></li>
-                                <li class="has-sub"><a href="service-single.html">Services</a>
+                                <li class="active"><a href="">Home</a></li>
+                                <li class="has-sub"><a href="service-single">Services</a>
                                 </li>
-                                <li class="has-sub"><a href="#">About</a>
+                                <li class="has-sub"><a href="about">About</a>
                                     <ul>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="about">About</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact-us.html">Contact Us</a>
+                                <li><a href="contact-us">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -89,7 +89,7 @@
                     <!-- /.navigations-->
                 </div>
                 <div class="col-lg-3 hidden-md col-sm-6 hidden-xs pull-right">
-                    <a href="consultation-form.html" class="btn btn-outline head-btn">Request A Consultation</a>
+                    <a href="consultation-form" class="btn btn-outline head-btn">Request A Consultation</a>
                 </div>
             </div>
         </div>
@@ -131,8 +131,8 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="slider-captions">
                                 <h1 class="page-title">DevFount Human Resource Services </h1>
-                                <p font-color="#fff";> We have expertise in <strong>managing</strong> diverse HR functions. We could be your HR department away
-                                <strong>from your office.</strong> Hire us to manage your HR functions while you save cost.</p>
+                                <p font-color="#fff" ;> We have expertise in <strong>managing</strong> diverse HR functions. We could be your HR department away
+                                    <strong>from your office.</strong> Hire us to manage your HR functions while you save cost.</p>
                             </div>
                         </div>
                     </div>
@@ -156,14 +156,12 @@
                 <!-- service-block -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="service-block">
-                        <div class="service-img"><a href="#" class="imghover"><img src="{{ url_for('static', filename='images/service_img_1.jpg')}}" alt="" class="img-responsive"></a></div>
+                        <div class="service-img">
+                            <a href="#" class="imghover"><img src="{{ url_for('static', filename='images/service_img_1.jpg')}}" alt="" class="img-responsive"></a>
+                        </div>
                         <div class="service-content">
                             <h3 class="service-title"><a href="#" class="title">Recruitment</a></h3>
-                            <p>With our meticulous
-                            recruitment processes and
-                            our expertise in the design of
-                            assessment tasks to measure
-                            precise competencies, we select the best talent to drive your business objectives.</p>
+                            <p>With our meticulous recruitment processes and our expertise in the design of assessment tasks to measure precise competencies, we select the best talent to drive your business objectives.</p>
                             <a href="service-single.html" class="btn-link">More Details</a>
                         </div>
                     </div>
@@ -172,10 +170,12 @@
                 <!-- service-block -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="service-block">
-                        <div class="service-img"><a href="#" class="imghover"><img src="{{ url_for('static', filename='images/service_img_2.jpg')}}" alt=""  class="img-responsive"></a></div>
+                        <div class="service-img">
+                            <a href="#" class="imghover"><img src="{{ url_for('static', filename='images/service_img_2.jpg')}}" alt="" class="img-responsive"></a>
+                        </div>
                         <div class="service-content">
                             <h3 class="service-title"><a href="#" class="title">HR Outsourcing</a></h3>
-                            <p>Partner with us to manage both your strategic HR functions and day to day HR affairs. Our expertise in the design of world class HR systems and processes and in the management of HR operations enable <strong>us</strong> <strong>infuse</strong> best practices in your organization while<strong>helping you</strong> save cost. </p>
+                            <p>Partner with us to manage both your strategic HR functions and day to day HR affairs. Our expertise in the design of world class HR systems and processes and in the management of HR operations enable <strong>us</strong> <strong>infuse</strong>                                best practices in your organization while<strong>helping you</strong> save cost. </p>
                             <a href="service-single.html" class="btn-link">More Details</a>
                         </div>
                     </div>
@@ -184,26 +184,28 @@
                 <!-- service-block -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="service-block">
-                        <div class="service-img"><a href="#" class="imghover"><img src="{{ url_for('static', filename='images/service_img_3.jpg')}}" alt=""  class="img-responsive"></a></div>
+                        <div class="service-img">
+                            <a href="#" class="imghover"><img src="{{ url_for('static', filename='images/service_img_3.jpg')}}" alt="" class="img-responsive"></a>
+                        </div>
                         <div class="service-content">
                             <h3 class="service-title"><a href="#" class="title">Capcity Building</a></h3>
                             <p>With our highly focused and customized training models and OD strategies, we support your staff to <strong>build & develop</strong> the competencies required to deliver on business objectives</p>
                             <a href="service-single.html" class="btn-link">More Details</a>
                         </div>
                     </div>
-                </div> 
-                            </div>
-                        </form>
-                    </div>
                 </div>
             </div>
-            <!-- /.consultation form -->
+            </form>
         </div>
     </div>
-                <div class="col-lg-offset-2 col-lg-2 col-md-offset-2 col-md-2 col-sm-2 col-xs-2">
-                </div>
-            </div>
-        </div>
+    </div>
+    <!-- /.consultation form -->
+    </div>
+    </div>
+    <div class="col-lg-offset-2 col-lg-2 col-md-offset-2 col-md-2 col-sm-2 col-xs-2">
+    </div>
+    </div>
+    </div>
     </div>
     <!-- footer -->
     <div class="footer">
@@ -294,13 +296,13 @@
     <script type="text/javascript" src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/multiple-carousel.js') }}"></script>
     <script type="text/javascript">
-    $("#dots").click(function() {
-        $(".top-header").toggle("slow", function() {
-            // Animation complete.
+        $("#dots").click(function() {
+            $(".top-header").toggle("slow", function() {
+                // Animation complete.
+            });
         });
-    });
     </script>
-    
+
 </body>
 
 </html>
