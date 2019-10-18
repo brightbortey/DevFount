@@ -20,7 +20,11 @@ def contact_us():
 
 @app.route('/consultation-form')
 def consultation_form():
-        return render_template('consultation-form.html')
+        return render_template('consultation-form.html')\
+
+@app.route('/service-single')
+def service_single():
+        return render_template('service-single.html')
 
 
 if __name__ == '__main__':
